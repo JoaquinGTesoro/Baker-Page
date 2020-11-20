@@ -1,0 +1,94 @@
+.foto-pastelera {
+  width: 30vw;
+  max-height: 85vh;
+}
+
+.info-principal {
+  width: 50vw;
+  height: 8em;
+  color: inherit;
+  background-color: #A1D6BB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.info-principal p {
+  background-color: #A1D6BB;
+  margin: auto 5px;
+}
+
+.info-secundaria {
+  width: 35vw;
+  height: 3em;
+  position: absolute;
+  right: 0;
+  margin: 0 35vw 0 0;
+  color: inherit;
+  background-color: #6FA184;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.info-secundaria p {
+  background-color: #6FA184;
+  margin: auto 5px;
+}
+
+.info-secundaria p span a {
+  background-color: #6FA184;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info-secundaria p span a:hover {
+  color: black;
+}
+
+.btn {
+  background-color: white;
+  border: solid 3px #6FA184;
+  border-radius: 5px;
+  color: #6FA184;
+  width: 14em;
+  padding: 1rem;
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-right: 2em;
+}
+
+.btn:hover {
+  background-color: #6FA184;
+  color: white;
+}
+
+.rotar i svg {
+  -webkit-transform: rotate(0.75turn);
+          transform: rotate(0.75turn);
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.botones {
+  margin-top: 7em;
+}
+/*# sourceMappingURL=acercaDeMi.css.map */
