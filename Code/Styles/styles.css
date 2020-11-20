@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  font-family: Poppins, sans-serif;
+}
+
+*::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("/img/background.png");
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/img/background.png");
+  background-size: cover;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+  background-color: white;
+}
+
+header .logo a {
+  text-decoration: none;
+}
+
+header .logo h1 {
+  font-family: Pacifico, serif;
+  color: black;
+}
+
+header .logo h1 span {
+  font-family: Pacifico;
+  color: #6FA184;
+}
+
+header .nav-bar .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .nav-bar .nav-items a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .nav-bar .nav-items li {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+header .nav-bar .nav-items a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #6FA184;
+}
+/*# sourceMappingURL=styles.css.map */
