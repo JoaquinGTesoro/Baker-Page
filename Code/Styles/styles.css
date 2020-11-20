@@ -38,6 +38,11 @@ header {
   background-color: white;
 }
 
+header .logo {
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
 header .logo a {
   text-decoration: none;
 }
@@ -50,6 +55,11 @@ header .logo h1 {
 header .logo h1 span {
   font-family: Pacifico;
   color: #6FA184;
+}
+
+header .logo:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 header .nav-bar .nav-items {

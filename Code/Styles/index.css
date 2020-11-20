@@ -32,6 +32,10 @@
   text-decoration: none;
 }
 
+.info-principal p span a:hover {
+  color: black;
+}
+
 .info-principal p:first-child {
   margin-bottom: -1em;
 }
@@ -65,6 +69,10 @@
   text-decoration: none;
 }
 
+.info-secundaria p span a:hover {
+  color: black;
+}
+
 .info-secundaria p:first-child {
   margin-bottom: -1em;
 }
@@ -78,12 +86,55 @@
   font-size: 1.3em;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   margin: 5em 10vw;
 }
 
 .btn-1 i svg {
   -webkit-transform: rotate(0.75turn);
           transform: rotate(0.75turn);
+  -webkit-animation-name: cookie;
+          animation-name: cookie;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.btn-1:hover {
+  background-color: #6FA184;
+  color: white;
+}
+
+@-webkit-keyframes cookie {
+  0% {
+    -webkit-transform: rotate(0.75turn);
+            transform: rotate(0.75turn);
+  }
+  50% {
+    -webkit-transform: rotate(0.45turn);
+            transform: rotate(0.45turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.75turn);
+            transform: rotate(0.75turn);
+  }
+}
+
+@keyframes cookie {
+  0% {
+    -webkit-transform: rotate(0.75turn);
+            transform: rotate(0.75turn);
+  }
+  50% {
+    -webkit-transform: rotate(0.45turn);
+            transform: rotate(0.45turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.75turn);
+            transform: rotate(0.75turn);
+  }
 }
 
 .seguinos p {
